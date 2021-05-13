@@ -1,0 +1,22 @@
+#about{
+    padding-bottom: 50px;
+}
+
+img {
+    width: 480px;
+    height: 640px
+}
+
+h2 {
+    font-size: 36px;
+    color: dimgrey;
+    line-height: 80px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    color: dimgrey;
+    line-height: 80px;
+    text-align: center;
+}

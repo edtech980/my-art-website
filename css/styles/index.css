@@ -1,0 +1,22 @@
+p {
+    padding-left: 50px;
+}
+
+.img {
+    width: 360px;
+    height: 480px;
+}
+
+.li {
+    
+    text-align: center;
+    justify-content: center
+}
+
+.p{
+    padding-top: 500px
+}
+.slide_show {
+    text-align: center;
+    justify-content: center
+}

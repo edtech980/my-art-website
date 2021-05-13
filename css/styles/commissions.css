@@ -1,0 +1,32 @@
+.p {
+  font-size: 27px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+
+p {
+  padding-left: 50px;
+}
+
+ul {
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  text-decoration: dotted;
+}
+
+.b {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 80px;
+  opacity: 0.7;
+}
+
+#l {
+  padding-top: 50px;
+}

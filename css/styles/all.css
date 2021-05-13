@@ -1,0 +1,349 @@
+
+/*For all the elements*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    visibility: hidden;
+}
+
+html.show{
+    visibility: visible;
+}
+
+body, div, header, nav, li, p, figure, footer {
+    display: block
+}
+
+body {
+    background-color: silver;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*For the navigation part*/
+.navigation {
+    height: 50px;
+    width: 100%;
+    border-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+
+.navigation nav {
+        background-color: black;
+        text-decoration: none;
+        height: 60px;
+        box-shadow: 2px 2px 5px white, -2px 2px 5px white;
+}
+
+.navigation nav div a span {
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+ }
+
+.navigation nav div a span.show{
+    display: none;
+}
+
+.navigation nav div a span:hover {
+    background-color: grey;
+    height: 40px;
+}
+
+.navigation nav .space {
+    width: 50px;
+    float: left;
+}
+
+/*Header part of the body*/
+.body header h1 {
+    font-family: Arial, Verdan, sans-serif;
+    font-size: 50px;
+    text-decoration: double;
+    text-shadow: 4px 2px 7px black;
+    text-align: center;
+    opacity: 0.5;
+    padding-left: 40px;
+    padding-top: 10px;
+    color: black
+}
+
+.body header p{
+    text-align: center;
+    font-display: auto;
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+
+/*Rest of the body*/
+
+/*Gallery images*/
+
+
+
+
+a figcaption{
+    padding-top: 20px;
+}
+
+.body div figure a{
+    text-decoration: none;
+}
+
+#image-one {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    background-size: contain;
+}
+
+image-one {
+    width: 360px;
+    height: 480px
+}
+
+#natalie {
+    width: 100%;
+    height: auto
+}
+
+natalie {
+    width: 336px;
+    height: 497px;
+}
+
+#image-two {
+    width: 100%;
+    height: auto
+}
+
+image-two {
+    width: 544px;
+    height: 430px
+}
+
+
+
+figure{
+    text-align: center;
+}
+
+figure.lage{
+
+}
+
+figure.medium{
+    float: left;
+    margin-left: 30px;
+}
+
+figure.small{
+    float: left;
+    margin-left: 30px;
+}
+
+/*Individual images*/
+
+#image-three {
+    width: 100px;
+    height: 70px;
+    padding-left: 800px;
+    float: left
+}
+
+#image-four {
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-left: 20px
+}
+
+#image-five {
+    width: 100px;
+    height: 70px;
+    padding-left: 20px;
+    float: left
+}
+
+
+footer  {
+    background: black;
+    height: 100px;
+    margin-top: 30px
+}
+
+
+figcaption {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+#block {
+    height: 450px;
+    padding-top: 40px;
+    /*background-color: blue;*/
+}
+
+p {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    opacity: 0.6;
+    line-height: 28px;
+}
+
+/*For sidebar*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    height: 100%;
+    background-color: black;
+    /*background-color: #042331;*/
+    width: 300px;
+    position: fixed;
+    left: -300px;
+    padding-top: 50px;
+    transition: left 0.4s ease;
+    z-index: 3;
+    overflow: auto;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+.sidebar.hide {
+    left: -300px;
+}
+
+.sidebar div a {
+        display: block;
+        height: 60px;
+        width: 300px;
+        line-height: 65px;
+        background-color: grey;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        color: white;
+        box-sizing: border-box;
+        border-top: 2px solid black;
+        transition: .4s;
+    }
+
+nav div:hover a {
+    padding-left: 50px;
+}
+
+.side-bar-nav {
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    z-index: 10;
+    margin: 0px;
+    box-shadow: 2px 2px 5px white, -2px 2px 5px white;
+}
+
+.side-bar-nav.show {
+     display: none;
+}
+
+#btn.show {
+    display: none;
+}
+
+#btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.body header h1 {
+    padding-top: 100px;
+}
+
+.body header h1.nav {
+    padding-top: 30px;
+}
+
+
+label #btn, label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    border-radius: 3px;
+}
+
+label #btn {
+    left: 40px;
+    top: 15px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+}
+
+label #cancel {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*Changing sidebar to navigation*/
+label #btn.show {
+    display: none;
+}
+
+/*Icons*/
+
+#icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    box-shadow: none;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#icon-div{
+    width: 100%;
+    height: 60px;
+    
+}
+
+
+
+
+
+
+
+
+

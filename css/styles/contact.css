@@ -1,0 +1,116 @@
+h1{
+    font-family: "Poppins", sans-serif, "arial";
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h4{
+    font-family: "Roboto", sans-serif, "arial";
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+/*Inputs*/
+
+.input:focus ~ label, textarea:focus ~ label, input:valid ~ label,
+textarea:valid ~ label{
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input{
+    width: 350px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+.input:focus,
+textarea:focus{
+    outline:0;
+}
+
+.input:focus ~ span,
+textarea:focus ~ span{
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea{
+    width: 100%;
+    min-height: 15em;
+}
+
+#sign {
+    width: 80px;
+    height: 30px;
+    color: red;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+
+.btn {
+    text-align: center;
+}
+
+#sign:hover{
+    background-color: lightblue;
+}
+
+#sign:active{
+    background-color: red;
+}
+
+.input[type=checkbox] + label {
+    color: #ccc;
+    font-style: italic;
+}
+
+.input[type=checkbox]:checked + label{
+    color: #f00;
+    font-style: normal;
+}
+
+#message{
+    height: 300px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    color: dimgrey;
+    line-height: 80px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: dimgrey;
+    line-height: 80px;
+    text-align: center;
+}
+
+.form{
+    color: red;
+}
